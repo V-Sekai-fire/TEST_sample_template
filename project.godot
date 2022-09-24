@@ -14,6 +14,15 @@ config/name="Test Sample Template"
 config/features=PackedStringArray("4.0", "Forward Plus")
 config/icon="res://icon.svg"
 
+[audio]
+
+buses/default_bus_layout="res://test_template/audio/default_bus_layout.tres"
+
+[physics]
+
+2d/run_on_separate_thread=true
+3d/run_on_separate_thread=true
+
 [rendering]
 
 driver/threads/thread_model=2
